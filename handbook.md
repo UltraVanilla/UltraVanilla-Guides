@@ -15,27 +15,34 @@
 ### Player info
 
 `/seen <player> [first]` Check when a player was first or last seen.
+	Example: `/seen Akoot_ first`
 
 `/inv <player> [enderchest]` Open a player’s inventory if they are online. Add ‘enderchest’ to the end of the command to open their ender chest.
+	Example: `/inv Akoot_ enderchest` (same as `/echest Akoot_`)
 
 `/echest <player>` Opens a player's enderchest.
 
 `/whois <player|nickname>` Use this to find out the username of a nickname is, as well as finding out what role a player has.
+	Example: `/whois Yoda`
 
 `/role <player>` Shows info on a player’s role.
 
 ### Misc
 
-`/setlore <line1>[|line2][|line3]...` Add lore to an item. Separate lines with '|'.
+`/setlore <line1>[|line2][|line3]...` Add lore to an item. Separate lines with '\|'.
+	Example: `/setlore This sword is quite epic.|The most epic sword I have ever seen.|It is worth a million bucks,|but I'm not allowed to sell it.`
 
 `/title [title] [-s <subtitle>] [-to <player>]` Shows a title to all players unless specified using ‘-to’. Use '-s' to specify a subtitle (smaller text).
+	Example: `/title You are now entering... -s the twilight zone...`
 
 `/raw <"message"> [-suggest|-command <"command"> | -link <"url">] [-hover <"hover message">] [-to <player>] [+ [...]]` Send a raw message. Concatenate with ‘+’.
 	Example:`/raw "Click " + "HERE" -command "hello" -hover "this text is shown only over the HERE" + " to say hello!"` 
 
 `/print <message>` Prints a message that only you can see.
+	Example: `/print &>0+a&m&l&oTEST`
 
 `/do <"command 1"> ["command 2"] ["command 3"]...` Execute multiple commands at once. Do not include a / unless you want to execute //command.
+	Example: `/do "tp @r" "/paste" "kill Akoot_"`
 
 ### Navigation
 
