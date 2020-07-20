@@ -4,7 +4,7 @@
 
 `/permaban <player>` Permanently bans a player by banning their account and IP as well as rolling back everything they’ve done for 99 weeks.
 
-### Permission
+### Permissions
 
 `/promote <player>` Promotes a player to the next rank.
 
@@ -53,7 +53,7 @@
 
 ### Navigation
 
-`!` or `/unstuck` will get you out of a block if you somehow got embedded inside.
+`/!` or `/unstuck` will get you out of a block if you somehow got embedded inside.
 
 `/j` or `/jumpto` sends you to the top of the block that you are looking at. If that block is a vertical wall, you will be placed on top of the cliff at the very edge.
 
