@@ -3,7 +3,7 @@
 
 First things first, for custom colors the only format accepted by the server will be in **hexadecimal**. If you don't know what that is I recommend you use [this site](https://www.w3schools.com/colors/colors_picker.asp "this site") or look up "color picker" on google or something.
 
-What your color should be in this format:`#000000` and the 0's can be any number or letter from `0-9` and `a-f`. Capitalization is ignored.
+Your color should be in this format:`#000000` and the 0's can be any number or letter from `0-9` and `a-f`. Capitalization is ignored.
 
 ------------
 
