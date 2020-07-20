@@ -8,13 +8,13 @@
 
 `/promote <player>` Promotes a player to the next rank.
 
-`/dpromote <player>` Promotes a donator to the next rank.
+`/donator <player>` Mark a player as a donator, effectively giving them all donator permissions.
 
 `/setgroup <player> <rank>` Set a player to a specific rank.
 
 ### Player info
 
-`/seen <player> [first]` Check when a player was first or last seen.
+`/seen <player> [first]` Check when a player was first or last seen. Click on their last location to teleport.
 	Example: `/seen Akoot_ first`
 
 `/inv <player> [enderchest]` Open a player’s inventory if they are online. Add ‘enderchest’ to the end of the command to open their ender chest.
@@ -43,6 +43,13 @@
 
 `/do <"command 1"> ["command 2"] ["command 3"]...` Execute multiple commands at once. Do not include a / unless you want to execute //command.
 	Example: `/do "tp @r" "/paste" "kill Akoot_"`
+
+`/homes <player>` List the homes of a player. Click on any coordinates to teleport.
+
+`/home copy <player>` Copy a player's homes (overwrites your own).
+
+`/make <player> say|do <message|command>` Makes a player say/do a message/command.
+	Example: `/make Akoot_ say Time to die!` `/make Akoot_ do suicide`
 
 ### Navigation
 
